@@ -9,14 +9,35 @@
 This repository hosts the data and source code for a comparative Land Use/Land Cover (LULC) analysis in the Suam region (Mt. Elgon, Kenya/Uganda). The study leverages a high-dimensional feature stack (82 bands) derived from **Landsat 9 OLI/TIRS** to evaluate the performance of five prominent machine learning classifiers:
 * **Ensemble Methods:** Random Forest (RF) & Gradient Boosting Machines (GBM)
 * **Standard Classifiers:** Classification and Regression Trees (CART), Minimum Distance (MD), & Support Vector Machines (SVM)
+---
 
-## 2. Repository Structure
+## 2. Study Area
+The study focuses on the **Suam River Basin**, a critical transboundary catchment between **Kenya and Uganda** on the slopes of **Mt. Elgon**. 
+* **Topography:** The area exhibits significant altitudinal gradients (approx. 1,100m to over 4,000m a.s.l.), influencing the transition from Afro-montane forests to intensive smallholder agriculture.
+* **LULC Characteristics:** The region is characterized by a complex mosaic of protected forest reserves, transitioning grasslands, and rapidly expanding cropland and urban centers.
+
+![Study Area Map](scripts/Study_Area_Map.png)
+*Figure 1: Study area location and topographic context (generated using QGIS).*
+
+---
+
+## 3. Methodology
+The research follows a robust computational pipeline designed for cloud-based remote sensing. The workflow is divided into three primary stages:
+1. **Data Acquisition & Pre-processing:** Landsat 9 OLI/TIRS median composite generation and cloud masking.
+2. **Feature Engineering:** Construction of an **82-feature hypercube** including spectral percentiles, 10 vegetation/water indices, GLCM texture metrics, and topographic variables (Elevation, Slope, Aspect, TWI, TPI, HAND).
+3. **Automated Training & Classification:** Implementation of a multi-source consensus logic (ESA WorldCover & Dynamic World) to generate 2,063 stratified samples for training five classifiers.
+
+![Methodology Diagram](scripts/Methodology_Flow.png)
+*Figure 2: Computational workflow and methodological framework.*
+
+---
+## 4. Repository Structure
 * **`/scripts`**: Contains the [GEE JavaScript API](scripts/analysis_gee.js) processing chain and [Python Visualization Notebook](scripts/Visualizations_SUAM.ipynb).
 * **`/data`**: Contains the `training_points.csv` (2,063 stratified training samples).
 
 ---
 
-## 3. Workflow & Reproduction
+## 5. Workflow & Reproduction
 
 ### Phase I: Satellite Image Processing (Google Earth Engine)
 Users can reproduce the feature extraction and classification via the following methods:
@@ -40,9 +61,9 @@ Execute the `scripts/Visualizations_SUAM.ipynb` notebook in a Jupyter environmen
 
 ---
 
-## 4. Citation
+## 6. Citation
 If you utilize this code or data, please cite the original study:
 > *[Full citation placeholder - To be updated upon publication]*
 
-## 5. License
+## 7. License
 This project is licensed under the **MIT License**.
