@@ -16,7 +16,7 @@ The study focuses on the **Suam River Basin**, a critical transboundary catchmen
 * **Topography:** The area exhibits significant altitudinal gradients (approx. 1,100m to over 4,000m a.s.l.), influencing the transition from Afro-montane forests to intensive smallholder agriculture.
 * **LULC Characteristics:** The region is characterized by a complex mosaic of protected forest reserves, transitioning grasslands, and rapidly expanding cropland and urban centers.
 
-![Study Area Map](scripts/Study_Area_Map.png)
+![Study Area Map](scripts/Suam_Study_Area_Map.png)
 *Figure 1: Study area location and topographic context (generated using QGIS).*
 
 ---
