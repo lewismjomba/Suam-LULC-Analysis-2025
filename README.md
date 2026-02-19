@@ -3,6 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GEE-Code](https://img.shields.io/badge/Google_Earth_Engine-Script-blue)](https://code.earthengine.google.com/9cd46be3da82dc9030a23ac2e354f5ab)
+[![Python-Analysis](https://img.shields.io/badge/Python-Visualization-green?logo=python&logoColor=white)](scripts/Visualizations_SUAM.ipynb)
 
 ## 1. Project Overview
 This repository hosts the data and source code for a comparative Land Use/Land Cover (LULC) analysis in the Suam region (Mt. Elgon, Kenya/Uganda). The study leverages a high-dimensional feature stack (82 bands) derived from **Landsat 9 OLI/TIRS** to evaluate the performance of five prominent machine learning classifiers:
