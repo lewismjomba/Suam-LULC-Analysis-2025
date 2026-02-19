@@ -11,7 +11,7 @@ This repository contains the data and software used for a comparative Land Use/L
 ## 2. Repository Structure
 * **`/scripts`**:
     * `analysis_gee.js`: Google Earth Engine (GEE) JavaScript code for feature extraction and model training.
-    * `visualizations.ipynb`: Jupyter Notebook for reproducing accuracy assessment figures.
+    * `Visualizations_SUAM.ipynb`: Jupyter Notebook for reproducing accuracy assessment figures.
 * **`/data`**:
     * `training_points.csv`: 2,063 stratified training samples used for validation.
 
