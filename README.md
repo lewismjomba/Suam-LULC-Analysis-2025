@@ -33,7 +33,7 @@ Execute the `scripts/Visualizations_SUAM.ipynb` notebook in a Jupyter environmen
 ![Figure 4](scripts/Figure4_Disagreement.png)
 
 #### Figure 5: McNemar’s Statistical Significance Test
-*Statistical comparison ($n_{10}$ vs $n_{01}$) evaluating performance differences against the RF reference classifier.*
+*Statistical significance of performance differences between the reference classifier (RF) and the challengers.*
 ![Figure 5](scripts/Figure5_McNemar.png)
 
 ---
