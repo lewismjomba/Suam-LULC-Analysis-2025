@@ -24,7 +24,7 @@ This repository contains the data and software used for a comparative Land Use/L
 2. A static snapshot of the script is available here: [https://code.earthengine.google.com/9cd46be3da82dc9030a23ac2e354f5ab]
 
 ### Step 2: Accuracy Visualizations (Python)
-Open `scripts/visualizations.ipynb` in a Jupyter environment (VS Code, JupyterLab, or Google Colab) to generate the following:
+Open `scripts/Visualizations_SUAM.ipynb` in a Jupyter environment (VS Code, JupyterLab, or Google Colab) to generate the following:
 
 #### Figure 3: Comparative Normalized Confusion Matrices
 Diagonal elements represent the proportion of correctly classified pixels for each LULC class, illustrating class-specific omission errors across all five classifiers.
