@@ -19,10 +19,9 @@ This repository contains the data and software used for a comparative Land Use/L
 
 ## 3. How to Reproduce the Results
 
-### Step 1: Satellite Image Processing (GEE)
-1. Copy the contents of `scripts/analysis_gee.js`.
-2. Paste it into the [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
-3. A static snapshot of the script is available here: [https://code.earthengine.google.com/9cd46be3da82dc9030a23ac2e354f5ab]
+### Step 1: Satellite Image Processing (GEE) - Use either step 1 or 2.
+1. Copy the contents of `scripts/analysis_gee.js` and paste it into the [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
+2. A static snapshot of the script is available here: [https://code.earthengine.google.com/9cd46be3da82dc9030a23ac2e354f5ab]
 
 ### Step 2: Accuracy Visualizations (Python)
 Open `scripts/visualizations.ipynb` in a Jupyter environment (VS Code, JupyterLab, or Google Colab) to generate the following:
