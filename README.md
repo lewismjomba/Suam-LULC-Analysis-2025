@@ -1,4 +1,5 @@
-# Suam LULC Analysis 2025: Comparative Machine Learning Performance
+# A Comparative Analysis of Supervised Classifiers in Google Earth Engine: RF, GBM, SVM, CART, and Minimum Distance
+## Suam LULC Analysis 2025: Comparative Machine Learning Performance
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GEE-Code](https://img.shields.io/badge/Google_Earth_Engine-Script-blue)](https://code.earthengine.google.com/9cd46be3da82dc9030a23ac2e354f5ab)
