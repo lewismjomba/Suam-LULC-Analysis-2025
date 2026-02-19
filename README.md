@@ -24,7 +24,7 @@ The study focuses on the **Suam River Basin**, a critical transboundary catchmen
 ## 3. Methodology
 The research follows a robust computational pipeline designed for cloud-based remote sensing. The workflow is divided into three primary stages:
 1. **Data Acquisition & Pre-processing:** Landsat 9 OLI/TIRS median composite generation and cloud masking.
-2. **Feature Engineering:** Construction of an **82-feature hypercube** including spectral percentiles, 10 vegetation/water indices, GLCM texture metrics, and topographic variables (Elevation, Slope, Aspect, TWI, TPI, HAND).
+2. **Feature Engineering:** Construction of an **82-feature hypercube** including spectral percentiles, vegetation/water indices, GLCM texture metrics, and topographic variables (Elevation, Slope, Aspect, TWI, TPI, HAND).
 3. **Automated Training & Classification:** Implementation of a multi-source consensus logic (ESA WorldCover & Dynamic World) to generate 2,063 stratified samples for training five classifiers.
 
 ![Methodology Diagram](scripts/Methodology_Flow.png)
