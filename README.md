@@ -25,16 +25,16 @@ Users can reproduce the feature extraction and classification via the following 
 Execute the `scripts/Visualizations_SUAM.ipynb` notebook in a Jupyter environment (VS Code, JupyterLab, or Google Colab) to generate publication-quality figures:
 
 #### Figure 3: Comparative Normalized Confusion Matrices
-*Illustrates class-specific omission/commission errors across all five classifiers.*
+*Illustrates class-specific omission/commission errors across all five classifiers.- Modified to include an insert table showing OA and K for each classifier*
 ![Figure 3](scripts/Figure3_Confusion_Matrices.png)
 
 #### Figure 4: Disagreement Analysis
 *Decomposes Total Disagreement (TD) into Quantity Disagreement (QD) and Allocation Disagreement (AD) alongside the Map Agreement Index (MAI).*
-![Figure 4](scripts/Figure4_Disagreement_Labeled.png)
+![Figure 4](scripts/Figure4_Disagreement.png)
 
 #### Figure 5: McNemar’s Statistical Significance Test
 *Statistical comparison ($n_{10}$ vs $n_{01}$) evaluating performance differences against the RF reference classifier.*
-![Figure 5](scripts/Figure5_McNemar_Labeled.png)
+![Figure 5](scripts/Figure5_McNemar.png)
 
 ---
 
